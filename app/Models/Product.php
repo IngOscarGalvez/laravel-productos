@@ -23,4 +23,9 @@ class Product extends Model
     {
         return $this->belongsTo(Category::class);
     }
+
+    public function getAgotadoAttribute(): string
+    {
+        return $this->stock <= 0 ? 'Sí' : 'No';
+    }
 }

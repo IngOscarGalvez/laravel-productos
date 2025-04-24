@@ -94,7 +94,7 @@ class ProductResource extends Resource
 
                 TextColumn::make('agotado')
                     ->label('¿Agotado?')
-                    ->formatStateUsing(fn($record) => $record->stock <= 0 ? 'Sí' : 'No'),
+                    ->sortable(),
             ])
             ->filters([
                 SelectFilter::make('category')
