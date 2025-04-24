@@ -21,7 +21,7 @@ Este es un proyecto Laravel 12 que implementa un sistema de gestión de producto
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tuusuario/laravel-productos.git
+git clone https://github.com/IngOscarGalvez/laravel-productos.git
 cd laravel-productos
 ```
 
@@ -106,7 +106,7 @@ Las imágenes se almacenan en `storage/app/public/products` y se sirven mediante
 
 ## 🧑 Autor
 
-Desarrollado por [Tu Nombre] – [@tuusuario](https://github.com/tuusuario)
+Desarrollado por [Oscar Galvez] – [@IngOscarGalvez](https://github.com/IngOscarGalvez)
 
 ---
 
